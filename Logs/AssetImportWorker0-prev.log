@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 15734 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/matta/CMPSC457_Final
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57505
+Successfully changed project path to: C:/Users/matta/CMPSC457_Final
+C:/Users/matta/CMPSC457_Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35072] Host "[IP] 66.71.80.233 [Port] 0 [Flags] 2 [Guid] 49266107 [EditorId] 49266107 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NFCHNDA3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [35072] Host "[IP] 66.71.80.233 [Port] 0 [Flags] 2 [Guid] 49266107 [EditorId] 49266107 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NFCHNDA3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 18.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/matta/CMPSC457_Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7867 MB
+    Driver:   27.20.11028.10001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015900 seconds.
+- Loaded All Assemblies, in  0.498 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 855ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (182ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.906 seconds
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.892 seconds
+Domain Reload Profiling: 1791ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (465ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (893ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (702ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 8.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5000 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (350.9 KB). Loaded Objects now: 5492.
+Memory consumption went from 223.4 MB to 223.1 MB.
+Total: 4.507800 ms (FindLiveObjects: 0.604600 ms CreateObjectMapping: 0.350100 ms MarkObjects: 3.265600 ms  DeleteObjects: 0.286000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164773.664010 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Roads
+  artifactKey: Guid(c2dd5b9e901f5604b97d6fb3add8e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Roads using Guid(c2dd5b9e901f5604b97d6fb3add8e8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0692c30b0d5d2ccdd6c23522eed5cb') in 0.005659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 2-Lane.prefab
+  artifactKey: Guid(e29301b968a402d479a344fb4eafa3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Roads/Road 2-Lane.prefab using Guid(e29301b968a402d479a344fb4eafa3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3eef456cf6400b4035b88032bcc290') in 0.040215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 49.568241 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Objects
+  artifactKey: Guid(2c88cdfaf1466c145b9ea037b862e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Objects using Guid(2c88cdfaf1466c145b9ea037b862e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dee44fa0362106ede50fe8af919de6') in 0.000778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042338 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Objects/CurvedT.prefab
+  artifactKey: Guid(66044d4de168f3b479dd3b3b516746f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Objects/CurvedT.prefab using Guid(66044d4de168f3b479dd3b3b516746f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68470594fc6ac1ad544bd35306cb7b5b') in 0.344496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight.prefab
+  artifactKey: Guid(9115a2419864b874e8cdb22e61765149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight.prefab using Guid(9115a2419864b874e8cdb22e61765149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30c01ad95d3955391a7edaf8a3001c8') in 0.062377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight 4 Lane.prefab
+  artifactKey: Guid(22359693c0c3c284fb25a6e49b4614e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight 4 Lane.prefab using Guid(22359693c0c3c284fb25a6e49b4614e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2935eb5edeac4a9782ac33315d6cae6d') in 0.043570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight Ground.prefab
+  artifactKey: Guid(f3396ab6f4bb1f24ca7a7c686c14de6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Objects/Straight Ground.prefab using Guid(f3396ab6f4bb1f24ca7a7c686c14de6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848936bb7a4f41eb0bbce8c2f8baecda') in 0.035172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Objects/IntersectionT.prefab
+  artifactKey: Guid(3e085b4753ef4da4fabaa5799d61aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Objects/IntersectionT.prefab using Guid(3e085b4753ef4da4fabaa5799d61aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fb74c568c7f5683295cfd6ea9b2298') in 0.035182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.295247 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Intersections
+  artifactKey: Guid(890302144cb124a44bbca0d19ef34340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Intersections using Guid(890302144cb124a44bbca0d19ef34340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab7683cc95464af6c131e17d844854d') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.039646 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 3-Way.prefab
+  artifactKey: Guid(7fe8ce0f404eb5d4aa6478e4f16ee46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 3-Way.prefab using Guid(7fe8ce0f404eb5d4aa6478e4f16ee46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baec9e7b916887324ebe8c2a8cc0430c') in 0.044801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Transition 2-4.prefab
+  artifactKey: Guid(5454162f7468e5948b3b473b692e8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Transition 2-4.prefab using Guid(5454162f7468e5948b3b473b692e8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14540b5ecdc9890c0aaf81fa4b0bdbc0') in 0.040480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road 4-Lane.prefab
+  artifactKey: Guid(939ca84dc88d06d40a1ce939cfb6f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road 4-Lane.prefab using Guid(939ca84dc88d06d40a1ce939cfb6f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528ad638bf3222b16f3643555a01d91a') in 0.035209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road.prefab
+  artifactKey: Guid(bed84fb6f5ec1a44da7254ca9b38cc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection Road.prefab using Guid(bed84fb6f5ec1a44da7254ca9b38cc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a3681d713ac8b6c05a2fd2f089ce68') in 0.038357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 4-Way.prefab
+  artifactKey: Guid(f835d49440c494149897d924b7d8661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Intersections/Intersection 4-Way.prefab using Guid(f835d49440c494149897d924b7d8661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e49ffd182fcf8c6b036bf8b4da96b08') in 0.031576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 2.552795 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Complex
+  artifactKey: Guid(572e6fedb0d84b749959c1e69a71eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Complex using Guid(572e6fedb0d84b749959c1e69a71eea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0697c70556a640fbf3bbf56aa8c4632f') in 0.000761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041268 seconds.
+  path: Assets/Barmetler/Road System/Demo/Prefabs/Complex/Round-a-Bout r=30m 4-Way.prefab
+  artifactKey: Guid(721c112632776944aafebdd46b3ffbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barmetler/Road System/Demo/Prefabs/Complex/Round-a-Bout r=30m 4-Way.prefab using Guid(721c112632776944aafebdd46b3ffbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2354e36ee9d1a166fca5a7c5540a46a2') in 0.057128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 147
